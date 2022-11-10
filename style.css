@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+}
+
+.general {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.call-logo-soc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #EBEBEB;;
+}
+
+.help {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.phone-ic {
+    width: 15%;
+    text-align: right;
+}
+
+.help p {
+    white-space: nowrap;
+    width: 82%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+
+.logo p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+
+
+.soc-coun{
+    display: flex;
+    width: 23%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.social {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    justify-content: space-around;
+}
+
+
+.lang {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+}
+
+.lang p {
+    font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+}
+
+.lang span {
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+#pro {
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+/* header styling ends */
+
+/* section 1 styling begins */
+
+
+.sect_1 {
+    background: url("./images/Slider\ Bg.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13rem 0;
+}
+
+.container1 {
+    width: 80%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+
+.container1 h2 {
+    width: 60%;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+
+.container1 .para, .our p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 60%;
+}
+
+.ct {
+    display: flex;
+    align-items: center;
+    width: 38%;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+
+.helps {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+
+.helps p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.helps span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 0.7;
+}
+
+.our {
+    display: flex;
+    align-items: center;
+    width: 43%;
+    justify-content: space-around;
+    background: #FCD900;
+    border-radius: 4px;
+    padding: 5px 0;
+}
+
+
+/* section 1 styling ends */
+
+/* section 2 styling begins */
+
+.sect_2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container2 {
+    width: 80%;
+    padding: 50px 0;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    opacity: 0.3;
+    text-transform: uppercase;
+}
+
+
+.cts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.text {
+    width: 52%;
+}
+
+.text h2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+
+.text .pre {
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+}
+
+.text .ct {
+    width: 70%;
+}
+
+
+/* .text .our { 
+    width: 20%;
+} */
+
+
+.icon-ct {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    width: 60%;
+    justify-content: space-between;
+}
+
+
+.icon-ct p {
+    width: 82%;
+}
+
+.text .helps {
+    justify-content: flex-start;
+    width: 54%;
+}
+
+.helps p a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
