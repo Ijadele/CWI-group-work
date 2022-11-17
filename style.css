@@ -377,6 +377,7 @@ h5 {
     background: transparent;
     color: #fff;
 }
+<<<<<<< HEAD
 /* section 2 styling ends */
 
 /* section 3 styling begins */
@@ -669,4 +670,262 @@ h4 {
     letter-spacing: 0.02em;
     opacity: 0.7;
     padding: 20px 0;
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: #FDFDFD;
+    width: 100%;
+    height: 100%;
+    padding: 55px 180px 30px 180px;
+    position: relative;
+    background: linear-gradient(32deg, #F1F1F1 15%, #FDFDFD 50%);
+}
+.overlay{
+    background: url("./images/Background-footer.png");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    top: 0px;
+    right: 0px;  
+}
+.ques{
+    display: flex;
+    justify-content: space-between;
+}
+.ques h2{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    width: 55%;
+}
+.cont{
+    display: flex;
+    width: auto;
+}
+.phonee{
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    margin-right: 5px;
+    z-index: 9;
+}
+.phonee:hover{
+    color: #807e7e;
+}
+.phonee-1{
+    width: 100%;
+    z-index: 9;
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+}
+.phonee-1 a{
+    text-decoration: none;
+    color: #000000;
+}
+.phonee-1 a:hover{
+    color: #807e7e;
+}
+.phonee svg{
+    height: 32px;
+    width: 32px;
+    margin-right: 5px;
+}
+.dets{
+    display: block;
+}
+.map{
+    height: 32px;
+    width: 32px;  
+}
+.calll{
+    height: 32px;
+    width: 32px;  
+}
+.dets h4{
+    font-weight: 400;
+    font-size: 12px;
+}
+.detss h4{
+    font-weight: 400;
+    font-size: 12px;
+}
+.dets h3{
+    font-weight: 400;
+    font-size: 14px; 
+    width: 130px;
+}
+.detss h3{
+    font-weight: 400;
+    font-size: 14px; 
+    width: 100%;
+}
+.laz{
+    font-weight: 400;
+    font-size: 14px; 
+    width: 200px;
+}
+.last a{
+    color: #000000;
+    font-weight: 400;
+    font-size: 11px; 
+    text-decoration: underline;
+}
+.dfg{
+    display: block;
+    width: 200px;
+}
+.pro-sol{
+    display: grid;
+    grid-template-columns:1.5fr 2fr 1.2fr 3fr ;
+    /* border: 2px solid yellowgreen; */
+    height: 300px;
+    margin-top: 72px;
+}
+.grid-foot{
+    z-index: 10;
+}
+.grid-foot h3{
+    color: #000000;
+    font-weight: 500;
+    font-size: 21px;  
+    margin-bottom: 20px;
+}
+.grid-foot ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+.grid-foot ul li a{
+    color: #000000;
+    font-weight: 400;
+    font-size: 12px;  
+    text-decoration: none;
+}
+.grid-foot ul li a:hover{
+    color: #807e7e;
+}
+.pro{
+    height: 100%;
+}
+.sol{
+    height: 100%;
+}
+.cor{
+    height: 100%;
+}
+.car{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left:42px;
+}
+.car svg{
+    height: 40px;
+    width: 40px;
+}
+.car h3{
+    color: #000000;
+    font-weight: 500;
+    font-size: 21px;  
+    margin-bottom: 20px;
+}
+.car p{
+    color: #000000;
+    font-weight: 400;
+    font-size: 12px;  
+    margin-bottom: 35px;
+}
+.car p span{
+  text-decoration: underline;
+}
+.car button{
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;  
+    z-index: 15;
+    cursor: pointer;
+    height: 35px;
+    width: 140px;
+    background: #FCD900;
+    border: none;
+}
+.car button:hover{
+    background: #cfb405;
+}
+.car button svg{
+    height: 8px;
+    width: 10px;
+}
+.opp{
+    width: 260px;
+    padding-left: 0px;
+}
+.copy{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F1F1F1;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 10px 180px 10px 180px;
+}
+.copy h5, h6{
+    color: #000000;
+    font-weight: 400;
+    font-size: 12px;     
+>>>>>>> 2ba7f91a8ff6c5e4d0158f36c7b2c48b0d5afb93
 }
