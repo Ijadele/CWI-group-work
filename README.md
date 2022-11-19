@@ -2,8 +2,6 @@
 
 This is the first Code-With-Imole group work.
 
-It was done by Opeyemi and God'sFavour
-
 It involves designing business webpages which includes:
 -- The Home page
 -- The About page
