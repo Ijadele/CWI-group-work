@@ -478,6 +478,34 @@ footer{
     line-height: 30px;
     width: 55%;
 }
+
+.ques-underlined {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+}
+
+.ques-underlined::before {
+    content: 'any questions?';
+    position: relative;
+    width: 100%;
+    height: 5px;
+    z-index: 1;
+}
+
+.ques-underlined::after {
+    content: ' ';
+    background: #FCD900;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: 8px;
+}
+
 .cont{
     display: flex;
     width: auto;
