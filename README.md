@@ -9,7 +9,8 @@ It involves designing business webpages which includes:
 
 The files includes:
 home.html
-style.css (which includes the home and about styling)
+style.css
 about.html
+about.css
 service.html and
 service.css
